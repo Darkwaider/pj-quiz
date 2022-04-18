@@ -1,0 +1,21 @@
+.Input {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 200px;
+    height: 40px;
+    transition: all 300ms ease-in-out;
+}
+
+label {
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.Invalid{
+    color: #a90e0e;
+}

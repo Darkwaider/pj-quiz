@@ -1,0 +1,25 @@
+.FinishedQuiz{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 100px;
+}
+.FinishedQuizContainer{
+    padding: 20px;
+}
+.FinishedQuizContainer *{
+    margin: 8px;
+}
+.true {
+    color: #518339;
+}
+
+.false {
+    color: #d51919;
+}
+
+big{
+    color: #fff;
+}

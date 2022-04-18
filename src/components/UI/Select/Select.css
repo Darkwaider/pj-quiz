@@ -1,0 +1,13 @@
+.Select {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Select label {
+}
+.Select select {
+    height: 30px;
+    border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+.btn{
+    border: #000000;
+    background: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 5px;
+    width: 150px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:active {
+    box-shadow: inset 2px 2px 1px  #696873;
+}
+
+.btn:disabled{
+    cursor: not-allowed;
+    background: #ccc;
+    color: #000;
+}
+.error{
+    background: #d51919;
+}
+
+.success{
+    background: #4dc511;
+}
+
+.primary{
+    background: #127ad2;
+}

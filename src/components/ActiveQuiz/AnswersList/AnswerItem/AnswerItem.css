@@ -1,0 +1,26 @@
+.AnswerItem{
+    padding: 5px 10px;
+    margin: 10px 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.AnswerItem:hover{
+    background: #794eaf;
+    transition: background 0.2s ease-in-out ;
+}
+
+.AnswerItem.true{
+    background: #518339;
+    color: #000;
+}
+
+.AnswerItem.false{
+    background: #d51919;
+    color: #000;
+}
+
+li {
+    list-style-type: none;
+}
